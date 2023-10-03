@@ -1,5 +1,7 @@
 # Codegen
 
+![App screenshot](https://raw.githubusercontent.com/devmilek/codegen/main/assets/ss.png)
+
 The Codegen is an application that allows easy online creation of QR codes. It enables users to generate QR codes for various purposes, such as storing URLs, contacts, text, and more. This application is user-friendly and offers numerous customization options for QR codes to suit the user's needs.
 
 ## Features
