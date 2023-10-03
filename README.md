@@ -103,4 +103,4 @@ devmilek
 Contact
 If you have any questions or suggestions regarding this project, please contact me at: devmilek@gmail.com
 
-Thank you for using our Codegen! We look forward to your contributions and feedback.
+Thank you for using our **_Codegen_**! We look forward to your contributions and feedback.
