@@ -59,6 +59,7 @@ const DestinationSidebar = () => {
       <div className="grid grid-cols-3 gap-x-6 gap-y-4 w-max">
         {destinations.map((item) => (
           <Link
+            key={item.href}
             href={item.href}
             className="space-y-2 flex flex-col items-center"
           >

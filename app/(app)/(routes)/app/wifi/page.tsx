@@ -105,7 +105,7 @@ const Page = () => {
                     <SelectContent>
                       <SelectGroup>
                         {networkTypes.map((item) => (
-                          <SelectItem value={item.value}>
+                          <SelectItem key={item.value} value={item.value}>
                             {item.label}
                           </SelectItem>
                         ))}

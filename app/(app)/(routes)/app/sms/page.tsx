@@ -72,7 +72,10 @@ const Page = () => {
                       <SelectGroup>
                         <ScrollArea className="h-[300px]">
                           {codes.map((code) => (
-                            <SelectItem value={code.dial_code}>
+                            <SelectItem
+                              key={code.dial_code}
+                              value={code.dial_code}
+                            >
                               {code.name}{" "}
                               <span className="text-xs opacity-40">
                                 {code.dial_code}

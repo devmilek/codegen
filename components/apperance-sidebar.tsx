@@ -78,6 +78,7 @@ const ApperanceSidebar = () => {
             <div className="grid grid-cols-3 gap-4">
               {markerBorders.map((item) => (
                 <div
+                  key={JSON.stringify(item.value)}
                   onClick={() => {
                     setEyeRadiusOuter(item.value);
                   }}
@@ -113,6 +114,7 @@ const ApperanceSidebar = () => {
             <div className="grid grid-cols-3 gap-4">
               {markerBorders.map((item) => (
                 <div
+                  key={JSON.stringify(item.value)}
                   onClick={() => {
                     setEyeRadiusInner(item.value);
                   }}
