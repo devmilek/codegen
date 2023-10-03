@@ -14,7 +14,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
-const DestinationSidebar = () => {
+const DestinationSidebar = ({ className }: { className?: string }) => {
   const pathname = usePathname();
   const destinations = [
     {
@@ -54,7 +54,7 @@ const DestinationSidebar = () => {
     },
   ];
   return (
-    <aside className="bg-white p-8 rounded-lg">
+    <aside className={cn("bg-white p-8 rounded-lg", className)}>
       <h2 className="text-xl font-semibold mb-4">Destinations</h2>
       <div className="grid grid-cols-3 gap-x-6 gap-y-4 w-max">
         {destinations.map((item) => (
